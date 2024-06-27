@@ -1,0 +1,495 @@
+@media only screen and (max-width: 786px) {
+  .about-us-banner > h1 {
+    font-size: 35px !important;
+  }
+
+  .about-us-banner {
+    height: 50vh !important;
+  }
+
+  .about-us-intro-main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-direction: column !important;
+
+    margin-bottom: 50px;
+  }
+
+  .about-us-image-left {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .about-us-intro-content-right {
+    width: 100% !important;
+  }
+
+  .about-us-founders-card {
+    flex-direction: column !important;
+
+    width: 90% !important;
+  }
+
+  .about-us-founders-card h3 {
+    text-align: center !important;
+  }
+
+  .about-us-founders-card p {
+    text-align: justify !important;
+  }
+
+  .about-us-founders-card-2 {
+    flex-direction: column !important;
+
+    width: 90% !important;
+  }
+
+  .about-us-founders-card-2 h3 {
+    text-align: center !important;
+  }
+
+  .about-us-founders-card-2 p {
+    text-align: justify !important;
+  }
+
+  .about-us-our-vision-section {
+    padding: 0 !important;
+
+    width: 100% !important;
+
+    flex-wrap: wrap !important;
+  }
+
+  .about-us-our-vision-top {
+    flex-wrap: wrap !important;
+
+    justify-content: center !important;
+    gap: 20px !important;
+  }
+
+  .about-us-our-vision-card {
+    width: 100% !important;
+    height: max-content !important;
+  }
+
+  .about-us-our-vision-card h2 {
+    text-align: center !important;
+  }
+
+  .vision-core-values-card > div {
+    gap: 20px !important;
+    width: max-content !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    align-self: center !important;
+  }
+
+  .about-us-our-team-cards-section {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  .about-us-get-in-touch-section {
+    flex-direction: column !important;
+  }
+
+  .about-us-get-in-touch-image-left > img {
+    width: 100% !important;
+  }
+
+  .about-us-get-in-touch-content-right {
+    width: 100% !important;
+  }
+
+  .about-us-faq-section {
+    padding: 0 !important;
+  }
+
+  .about-us-get-in-touch-contact-section {
+    flex-wrap: wrap !important;
+  }
+}
+
+.about-us-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+
+  font-family: Bank-Gothic;
+  color: #fff;
+
+  background-color: #202020;
+}
+
+.about-us-banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  flex-direction: column;
+
+  padding-top: 200px;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.about-us-banner > h1 {
+  font-size: 60px;
+}
+
+.about-us-main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  width: 90%;
+}
+
+.about-us-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.about-us-intro-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+.about-us-intro-head > span {
+  font-size: 22px;
+}
+
+.about-us-intro-head > h2 {
+  font-size: 30px;
+
+  font-weight: bold;
+}
+
+.about-us-intro-main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin-bottom: 50px;
+}
+
+.about-us-image-left {
+  width: auto;
+}
+
+.about-us-image-left > img {
+  height: 450px;
+  width: 280px;
+
+  border-radius: 50px;
+}
+
+.about-us-intro-content-right {
+  width: 100%;
+  text-align: justify;
+}
+
+.about-us-intro-content-right > p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about-us-intro-founders-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  gap: 20px;
+
+  width: 100%;
+
+  font-size: 20px;
+}
+
+.about-us-founders-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  gap: 50px;
+
+  padding: 20px;
+
+  border: 1px solid #fff;
+
+  border-radius: 5px;
+}
+
+.about-us-founders-card-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: row-reverse;
+
+  width: 100%;
+
+  gap: 50px;
+
+  padding: 20px;
+
+  border: 1px solid #fff;
+
+  border-radius: 5px;
+}
+
+.about-us-founders-card-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  flex-direction: column;
+}
+
+.about-us-our-vision-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  gap: 30px;
+
+  width: 90%;
+
+  margin-top: 50px;
+
+  background-color: #2a2a2a;
+  border-radius: 5px;
+
+  padding: 50px;
+}
+
+.about-us-our-vision-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+.about-us-our-vision-card {
+  width: 45%;
+  height: 300px;
+  text-align: justify;
+
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+
+  padding: 20px;
+}
+
+.about-us-our-vision-card > p {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.vision-core-values-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  width: 100%;
+  height: max-content;
+}
+
+.vision-core-values-card > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  width: 100%;
+}
+
+.vision-core-values-card > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.vision-core-values-card > div > div > svg {
+  width: 40px;
+  height: 40px;
+}
+
+.vision-core-values-card > div > div > span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about-us-our-vision-card:hover {
+  background: radial-gradient(
+    231% 135.8% at 0.9% 2.98%,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  backdrop-filter: blur(27px);
+}
+
+.about-us-our-vision-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+.about-us-our-vision-bottom > .about-us-our-vision-card {
+  width: 100%;
+}
+
+.about-us-faq-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  gap: 30px;
+
+  width: 100%;
+
+  margin-bottom: 50px;
+
+  padding: 50px;
+}
+
+.about-us-faq-section > .about-us-faq-heading-section {
+  text-align: center;
+}
+
+.about-us-faq-section > .about-us-faq-heading-section > h2 {
+  font-size: 35px;
+}
+
+.about-us-faq-section > .about-us-faq-heading-section > span {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.about-us-our-team-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  margin-bottom: 50px;
+}
+
+.about-us-our-team-heading {
+  text-align: center;
+}
+
+.about-us-our-team-cards-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  margin-top: 50px;
+}
+
+.about-us-our-team-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  padding: 20px;
+
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+}
+
+.about-us-get-in-touch-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  padding: 20px;
+
+  border-radius: 5px;
+
+  background-color: #2a2a2a;
+
+  margin-bottom: 100px;
+
+  box-shadow: 0px 30px 50px -20px rgba(255, 215, 0, 0.2);
+}
+
+.about-us-get-in-touch-image-left > img {
+  width: 500px;
+
+  border-radius: 5px;
+}
+
+.about-us-get-in-touch-content-right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  flex-direction: column;
+
+  gap: 30px;
+
+  width: 50%;
+}
+
+.about-us-get-in-touch-contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  gap: 50px;
+}
+
+.about-us-get-in-touch-contact-section span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+}

@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1050px) {
+  .book-interest-modal-conainer {
+    top: 0 !important;
+    left: 0 !important;
+
+    width: 90% !important;
+  }
+
+  .book-interest-cross-icon {
+    padding-bottom: 10px !important;
+  }
+}
+
+.book-interest-cross-icon {
+  display: flex;
+  align-self: center;
+
+  padding-bottom: 50px;
+
+  font-size: 24px;
+
+  color: #fff;
+
+  cursor: pointer;
+}
+
+.book-interest-modal-conainer {
+  position: absolute;
+  top: 10%;
+  left: 31%;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+  width: max-content;
+  height: max-content;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  animation: translation 0.5s ease-in-out;
+}
+
+@keyframes translation {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

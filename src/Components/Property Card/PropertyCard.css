@@ -1,0 +1,385 @@
+.property-card-section {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 320px;
+  height: max-content;
+
+  padding: 20px;
+
+  border: 1px solid #fff;
+  border-radius: 20px;
+
+  font-family: Bank-Gothic;
+  color: var(--white-200, #dcdcdc);
+
+  position: relative;
+  background-color: transparent;
+}
+
+.property-card-section:hover {
+  background: radial-gradient(
+    231% 135.8% at 0.9% 2.98%,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  backdrop-filter: blur(25px);
+}
+
+.property-card-section > span {
+  position: absolute;
+  z-index: 11;
+  top: 0;
+  left: 0;
+
+  color: black;
+  font-family: Bank-Gothic;
+  font-weight: bold;
+  font-size: 14px;
+
+  padding: 6px 20px 10px 20px;
+  border-radius: 20px 0px;
+  background: linear-gradient(
+    108deg,
+    #be9118 -99.94%,
+    #efd84e -91.38%,
+    #be9218 -69.13%,
+    #f4de53 -36.61%,
+    #d4b030 -0.67%,
+    #dfc03c 21.58%,
+    #c0941a 50.67%,
+    #c49a1e 50.71%,
+    #b48f25 83.19%,
+    #c89f23 119.13%,
+    #ae9449 165.34%,
+    #bf9319 226.96%
+  );
+}
+
+.property-card-top-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-image-container {
+  position: relative;
+}
+
+.property-card-top-section .card-image-container > img {
+  width: 300px;
+  height: 250px;
+
+  border: none;
+  border-radius: 20px;
+}
+
+.card-sales-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  font-size: 12px;
+
+  border-radius: 5px;
+  border: 1px solid #fff;
+  opacity: 0.6;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    #3d3d3d;
+
+  padding: 5px;
+}
+
+.property-card-main-section {
+  height: 90%;
+}
+
+.property-card-section .card-details-section {
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding-top: 10px;
+
+  gap: 20px;
+}
+
+.property-card-section .card-details-section > h3 {
+  margin: 0px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.property-card-section .card-property-detail > span {
+  font-size: 14px;
+  color: var(--white-100, #efefef);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.property-card-section .card-property-detail > span > b {
+  color: rgb(255, 255, 255);
+}
+
+.property-card-top-section .card-details-subgroup {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  flex-direction: column;
+
+  width: 100%;
+
+  gap: 6px;
+}
+
+.property-card-top-section .card-details-subgroup > .card-property-detail {
+  display: flex;
+  gap: 5px;
+
+  justify-content: center;
+  align-items: center;
+
+  width: max-content;
+
+  font-size: 14px;
+}
+
+.property-card-contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-direction: column;
+
+  width: max-content;
+
+  margin-top: 20px;
+}
+
+.property-card-contact-section > h3 {
+  margin: 0;
+
+  font-size: 22px;
+  font-weight: bold;
+  width: max-content;
+}
+
+.property-card-contact-buttons-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-direction: column;
+
+  width: max-content;
+
+  margin-top: 20px;
+
+  gap: 10px;
+}
+
+.property-card-contact-buttons-section > button {
+  display: inline-flex;
+  padding: 6px 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  width: 100%;
+
+  font-size: 16px;
+
+  border-radius: 20px;
+  background: #fff;
+
+  border: none;
+
+  font-family: Bank-Gothic;
+
+  cursor: pointer;
+}
+
+.property-card-book-interest-button {
+  color: #fff;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    linear-gradient(
+      105deg,
+      #be9118 -12.77%,
+      #efd84e -7.26%,
+      #be9218 7.07%,
+      #f4de53 28.02%,
+      #d4b030 51.17%,
+      #dfc03c 65.5%,
+      #c0941a 84.24%,
+      #c49a1e 84.26%,
+      #b48f25 105.18%,
+      #c89f23 128.33%,
+      #ae9449 158.09%,
+      #bf9319 197.77%
+    ) !important;
+}
+
+.list-view {
+  width: 100%;
+  flex-direction: row;
+
+  padding: 10px;
+
+  height: 250px;
+}
+
+.list-view > .property-card-top-section {
+  width: 100%;
+  flex-direction: row;
+
+  height: 100%;
+}
+
+.list-view .property-card-top-left-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+
+  gap: 50px;
+}
+
+.list-view .card-details-section {
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  gap: 5px;
+
+  height: 100%;
+}
+
+.list-view .card-details-section > h3 {
+  margin: 0px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.list-view .card-property-detail > span {
+  font-size: 18px;
+  color: var(--white-100, #efefef);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.list-view .card-details-subgroup {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  flex-direction: column;
+
+  width: 100%;
+
+  gap: 20px;
+}
+
+.list-view .property-card-contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-direction: column;
+
+  height: 90%;
+
+  width: max-content;
+}
+
+.list-view .property-card-contact-section > h3 {
+  margin: 0;
+
+  font-size: 24px;
+  font-weight: bold;
+  width: max-content;
+}
+
+.list-view .property-card-contact-buttons-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-direction: column;
+
+  width: max-content;
+
+  gap: 20px;
+}
+
+.list-view .property-card-contact-buttons-section > button {
+  display: inline-flex;
+  padding: 10px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  width: 100%;
+
+  font-size: 18px;
+
+  border-radius: 20px;
+  background: #fff;
+
+  border: none;
+
+  font-family: Bank-Gothic;
+
+  cursor: pointer;
+}
+
+.list-view .property-card-book-interest-button {
+  color: #fff;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    linear-gradient(
+      105deg,
+      #be9118 -12.77%,
+      #efd84e -7.26%,
+      #be9218 7.07%,
+      #f4de53 28.02%,
+      #d4b030 51.17%,
+      #dfc03c 65.5%,
+      #c0941a 84.24%,
+      #c49a1e 84.26%,
+      #b48f25 105.18%,
+      #c89f23 128.33%,
+      #ae9449 158.09%,
+      #bf9319 197.77%
+    ) !important;
+}

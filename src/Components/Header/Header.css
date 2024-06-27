@@ -1,0 +1,69 @@
+@media only screen and (max-width: 767px) {
+  .header-component {
+    display: none !important;
+  }
+}
+
+.header-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 5vh;
+}
+
+.header-icons-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 10%;
+  height: 10px;
+
+  border-right: 1px solid #f6f6f6;
+
+  padding: 10px;
+  gap: 5px;
+}
+
+.header-icons-section > svg {
+  cursor: pointer;
+}
+
+.header-contact-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Bank-Gothic;
+}
+
+.header-contact-details > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #f6f6f6;
+
+  height: 10px;
+
+  gap: 10px;
+
+  padding: 10px;
+
+  border-left: 1px solid #f6f6f6;
+}
+
+.notTransparentHead {
+  background-color: #3d3d3d;
+}
+
+.transparent {
+  background-color: transparent !important;
+}

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Bank-Gothic;
+  src: url("./Assets/Fonts/BankGothic\ Regular.ttf");
+}
+
+@font-face {
+  font-family: Bank-Gothic;
+  src: url("./Assets/Fonts/BankGothic\ Bold.ttf");
+  font-weight: bold;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.App input {
+  outline: none !important;
+}
+
+.App textarea {
+  outline: none !important;
+}

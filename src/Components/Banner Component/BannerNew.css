@@ -1,0 +1,62 @@
+@media only screen and (max-width: 786px) {
+  .bannerNew-component {
+    height: max-content !important;
+
+    margin-bottom: 200px !important;
+  }
+
+  .bannerNew-component-image {
+    height: 100% !important;
+  }
+
+  .bannerNewHeading {
+    height: max-content !important;
+    padding-bottom: 20px !important;
+  }
+
+  .bannerNewHeading > div {
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column !important;
+  }
+
+  .bannerNewHeading > div > div {
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column !important;
+  }
+
+  .bannerNewHeading > div > div > p {
+    margin-block: 0 !important;
+  }
+}
+
+.bannerNew-component-image {
+  width: 100%;
+  height: 300px;
+
+  border-radius: 5px;
+}
+
+.bannerNew-component {
+  font-family: Bank-Gothic;
+  font-weight: bold;
+  color: #fff;
+
+  border-radius: 5px;
+}
+
+.bannerNewHeading {
+  background: linear-gradient(
+      360deg,
+      rgba(244, 222, 83, 0.41) -13.99%,
+      rgba(98, 89, 33, 0.41) 27.36%,
+      rgba(0, 0, 0, 0.41) 62.3%
+    ),
+    gray 50% / cover no-repeat;
+  opacity: 70%;
+
+  border-radius: 5px;
+
+  text-align: center;
+}

@@ -1,0 +1,128 @@
+@media only screen and (max-width: 1050px) {
+  .property-news-card-main > button,
+  .propery-news-card-content > svg {
+    transform: scale(1) !important;
+    opacity: 1 !important;
+  }
+
+  .property-news-card {
+    min-width: 350px !important;
+  }
+
+  .property-news-card-main > a {
+    text-decoration: none !important;
+  }
+
+  .property-news-card-main > a button,
+  .propery-news-card-content > svg {
+    transform: scale(1) !important;
+    opacity: 1 !important;
+  }
+
+  .property-news-card {
+    box-shadow: 0 0 50px rgba(255, 215, 0, 0.2) !important;
+  }
+}
+
+.property-news-card {
+  width: 350px;
+  height: 800px;
+
+  border-radius: 10px;
+  border: none;
+
+  padding: 20px;
+}
+
+.propery-news-card-content {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  align-items: center;
+
+  height: 50%;
+}
+
+.propery-news-card-content > svg {
+  background-color: #fff;
+
+  padding: 10px;
+
+  border-radius: 10px;
+
+  align-self: flex-end;
+
+  transform: scale(0);
+  transition: transform 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.property-news-card-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.property-news-card-main > h2 {
+  color: var(--white-100, #efefef);
+  font-family: Bank-Gothic;
+  font-size: 32.202px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 57.504px; /* 178.571% */
+  text-align: center;
+}
+
+.property-news-card-main > a button {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+
+  border: none;
+  background-color: var(--black-950, #000);
+
+  border-radius: 50%;
+
+  color: var(--white-50, #fff);
+  text-align: center;
+  font-family: Bank-Gothic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 57.504px; /* 261.383% */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  justify-self: center;
+
+  cursor: pointer;
+
+  transform: scale(0);
+
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+/* .propery-news-card-content {
+  display: none;
+} */
+
+.property-news-card:hover .property-news-card-main > a {
+  text-decoration: none;
+}
+
+.property-news-card:hover .property-news-card-main > a button,
+.propery-news-card-content > svg {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.property-news-card:hover {
+  box-shadow: 0 0 50px rgba(255, 215, 0, 0.2);
+}

@@ -1,0 +1,1239 @@
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
+  .home-banner-section {
+    padding-top: 50px;
+
+    height: 50vh !important;
+  }
+
+  .home-banner-left-heading {
+    width: 90% !important;
+  }
+
+  .home-banner-right-form {
+    display: none !important;
+  }
+
+  .home-enquiry-form-mobile .home-banner-right-form {
+    display: flex !important;
+    width: 100% !important;
+  }
+
+  .home-enquiry-form-mobile {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+    width: 50% !important;
+
+    margin-top: 50px !important;
+  }
+
+  .home-about-section {
+    flex-direction: column !important;
+  }
+
+  .home-about-play-video-button {
+    display: none !important;
+  }
+
+  .home-about-text-section {
+    flex-direction: column !important;
+  }
+
+  .home-about-text-section > img {
+    width: 90% !important;
+  }
+
+  .home-about-right-image {
+    display: none !important;
+  }
+
+  .home-about-text {
+    padding-bottom: 20px !important;
+  }
+
+  .home-about-text > span {
+    font-size: 28px;
+  }
+
+  .home-propeties-section {
+    height: auto !important;
+  }
+
+  .home-properties-desktop {
+    display: none !important;
+  }
+
+  .home-properties-mobile {
+    display: flex !important;
+    flex-direction: column;
+
+    width: 100%;
+  }
+
+  .home-properties-mobile > a {
+    justify-self: center;
+    align-self: center;
+  }
+
+  .home-properties-mobile > a > button {
+    margin-top: 50px;
+
+    width: 250px;
+    height: 60px;
+
+    font-family: Bank-Gothic;
+    color: #fff;
+    font-size: 24px;
+
+    border-radius: 5px;
+    border: none;
+
+    background: linear-gradient(
+      109deg,
+      #be9118 -67.41%,
+      #efd84e -61.17%,
+      #be9218 -44.95%,
+      #f4de53 -21.24%,
+      #d4b030 4.97%,
+      #dfc03c 21.19%,
+      #c0941a 42.4%,
+      #c49a1e 42.43%,
+      #b48f25 66.11%,
+      #c89f23 92.32%,
+      #ae9449 126.01%,
+      #bf9319 170.93%
+    );
+  }
+
+  .home-what-we-offer-section > h2 {
+    display: flex !important;
+    width: 100% !important;
+
+    flex-direction: column !important;
+
+    justify-content: center !important;
+    align-items: center !important;
+
+    text-align: left !important;
+  }
+
+  .home-what-we-offer-section > h3 {
+    display: flex;
+    flex-wrap: wrap !important;
+
+    font-size: 24px;
+  }
+
+  .home-testimonials-content {
+    flex-direction: column !important;
+  }
+
+  .home-testimonials-left {
+    width: 100% !important;
+  }
+
+  .home-testimonials-content > img {
+    padding-top: 20px !important;
+    width: 100% !important;
+  }
+
+  .home-our-agents-section {
+    width: 90% !important;
+  }
+
+  .home-agent-cards-section {
+    /* width: 800px !important; */
+
+    width: 100% !important;
+    overflow-x: scroll;
+  }
+
+  .home-property-news-section {
+    overflow-x: scroll !important;
+
+    width: 90% !important;
+
+    justify-content: flex-start !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .what-we-offer-carousel-container {
+    display: none !important;
+  }
+
+  .home-what-we-offer-carousel {
+    display: none !important;
+  }
+
+  .home-banner-section {
+    height: auto !important;
+
+    padding-top: 100px !important;
+
+    padding-bottom: 100px !important;
+
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+
+  .home-banner-left-heading {
+    width: 90% !important;
+
+    padding-top: 0 !important;
+  }
+
+  .home-banner-mid-content {
+    margin: 0 !important;
+  }
+
+  .home-banner-left-heading > h2 {
+    font-size: 30px !important;
+  }
+
+  .home-banner-left-heading > h1 {
+    font-size: 80px !important;
+    padding-bottom: 40px;
+  }
+
+  .home-banner-right-form {
+    display: none !important;
+  }
+
+  .home-enquiry-form-mobile {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+    width: 100% !important;
+
+    margin-top: 50px !important;
+  }
+
+  .home-enquiry-form-mobile .home-banner-right-form {
+    display: flex !important;
+    width: 100% !important;
+  }
+
+  .home-enquiry-form-mobile form p {
+    font-family: Bank-Gothic;
+
+    color: gold;
+
+    position: absolute;
+
+    padding-left: 20px !important;
+    padding-top: 20px;
+  }
+
+  .home-about-section {
+    flex-direction: column !important;
+  }
+
+  .home-about-play-video-button {
+    display: none !important;
+  }
+
+  .home-about-text-section {
+    flex-direction: column !important;
+    padding: 0 !important;
+  }
+
+  .home-about-text-section > img {
+    width: 90% !important;
+  }
+
+  .home-about-right-image {
+    display: none !important;
+  }
+
+  .home-about-text {
+    padding: 0 !important;
+    padding-bottom: 20px !important;
+
+    width: 100% !important;
+  }
+
+  .home-about-text > span {
+    font-size: 18px;
+  }
+
+  .home-propeties-section {
+    height: auto !important;
+  }
+
+  .home-properties-desktop {
+    display: none !important;
+  }
+
+  .home-properties-mobile {
+    display: flex !important;
+    flex-direction: column;
+
+    width: 100%;
+  }
+
+  .home-properties-mobile > a {
+    justify-self: center;
+    align-self: center;
+  }
+
+  .home-properties-mobile > a > button {
+    margin-top: 50px;
+
+    width: 250px;
+    height: 60px;
+
+    font-family: Bank-Gothic;
+    color: #fff;
+    font-size: 24px;
+
+    border-radius: 5px;
+    border: none;
+
+    background: linear-gradient(
+      109deg,
+      #be9118 -67.41%,
+      #efd84e -61.17%,
+      #be9218 -44.95%,
+      #f4de53 -21.24%,
+      #d4b030 4.97%,
+      #dfc03c 21.19%,
+      #c0941a 42.4%,
+      #c49a1e 42.43%,
+      #b48f25 66.11%,
+      #c89f23 92.32%,
+      #ae9449 126.01%,
+      #bf9319 170.93%
+    );
+  }
+
+  .home-what-we-offer-section > h2 {
+    display: flex !important;
+    width: 100% !important;
+
+    flex-direction: column !important;
+
+    justify-content: center !important;
+    align-items: center !important;
+
+    text-align: left !important;
+  }
+
+  .home-what-we-offer-section > h3 {
+    display: flex;
+    flex-wrap: wrap !important;
+
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-testimonials-top > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+  }
+
+  .home-testimonials-content {
+    flex-direction: column !important;
+  }
+
+  .home-testimonials-text-section {
+    width: 100% !important;
+  }
+
+  .home-testimonials-left {
+    width: 100% !important;
+  }
+
+  .home-testimonials-metrics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+  }
+
+  .home-testimonial-metric {
+    margin-top: 50px;
+    padding-right: 10px !important;
+    padding-left: 10px;
+    text-align: left;
+    border-right: 1px solid #888;
+  }
+
+  .home-testimonial-metric > span {
+    display: flex !important;
+    width: 120px !important;
+  }
+
+  .home-testimonials-content > img {
+    padding-top: 20px !important;
+    width: 100% !important;
+  }
+
+  .home-our-agents-section {
+    width: 90% !important;
+  }
+
+  .home-agent-cards-section {
+    /* width: 800px !important; */
+
+    width: 100% !important;
+    overflow-x: scroll;
+  }
+
+  .home-property-news-section {
+    overflow-x: scroll !important;
+
+    width: 90% !important;
+
+    justify-content: flex-start !important;
+  }
+}
+
+.home-properties-desktop {
+  display: flex;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #202020;
+
+  width: 100%;
+}
+
+.home-banner-section {
+  background-image: url("../../Assets/Home/Home-Banner-Backdrop.jpeg");
+
+  width: 100%;
+
+  height: 100vh;
+}
+
+.home-banner-mid-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-top: 150px;
+}
+
+.home-banner-left-heading {
+  font-family: Bank-Gothic;
+  font-style: bold;
+  color: #ffffff;
+
+  width: 50%;
+
+  text-align: left;
+}
+
+.home-banner-left-heading > h2 {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  margin: 0px;
+}
+
+.home-banner-left-heading > h1 {
+  font-size: 120.667px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+  margin: 0px;
+
+  background: var(
+    --new-bg--gold,
+    linear-gradient(
+      105deg,
+      #be9118 -12.77%,
+      #efd84e -7.26%,
+      #be9218 7.07%,
+      #f4de53 28.02%,
+      #d4b030 51.17%,
+      #dfc03c 65.5%,
+      #c0941a 84.24%,
+      #c49a1e 84.26%,
+      #b48f25 105.18%,
+      #c89f23 128.33%,
+      #ae9449 158.09%,
+      #bf9319 197.77%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-banner-left-heading > span {
+  font-size: 22px;
+  font-style: normal;
+  line-height: normal;
+  text-align: justify;
+}
+
+.home-banner-right-form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Bank-Gothic;
+  font-style: bold;
+  color: #ffffff;
+
+  border-radius: 19px;
+  background: linear-gradient(
+    108deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.13) 100%
+  );
+}
+
+.home-banner-right-form > div > h3 {
+  background: var(--bg4, linear-gradient(54deg, #3d3d3d -9.12%, #000 108.91%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.home-banner-right-form > div {
+  width: 100%;
+
+  border-radius: 19px 19px 0px 0px;
+  background: linear-gradient(
+      109deg,
+      #be9118 -67.41%,
+      #efd84e -61.17%,
+      #be9218 -44.95%,
+      #f4de53 -21.24%,
+      #d4b030 4.97%,
+      #dfc03c 21.19%,
+      #c0941a 42.4%,
+      #c49a1e 42.43%,
+      #b48f25 66.11%,
+      #c89f23 92.32%,
+      #ae9449 126.01%,
+      #bf9319 170.93%
+    ),
+    #f4de53;
+}
+
+.home-banner-right-form > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  padding-top: 20px;
+
+  gap: 10px;
+}
+
+.home-banner-right-form > form > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 70%;
+}
+
+.home-banner-right-form > form input,
+textarea {
+  width: 100%;
+  height: 43px;
+  flex-shrink: 0;
+
+  border: none;
+  border-radius: 6px;
+  background: #fff;
+
+  padding-left: 20px;
+
+  font-family: Bank-Gothic;
+
+  position: relative;
+}
+
+.home-banner-right-form form textarea {
+  width: 100%;
+  padding-top: 30px;
+  color: #fff;
+  padding-left: 20px;
+  margin-bottom: 20px;
+
+  background-color: transparent;
+
+  position: relative;
+}
+
+.home-banner-right-form > form p {
+  font-family: Bank-Gothic;
+
+  color: gold;
+
+  position: absolute;
+
+  padding-left: 40px;
+}
+
+.home-banner-right-form > form > button {
+  display: inline-flex;
+  /* padding: 18px 63px 22px 64px; */
+  padding: 20px;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(
+    109deg,
+    #be9118 -67.41%,
+    #efd84e -61.17%,
+    #be9218 -44.95%,
+    #f4de53 -21.24%,
+    #d4b030 4.97%,
+    #dfc03c 21.19%,
+    #c0941a 42.4%,
+    #c49a1e 42.43%,
+    #b48f25 66.11%,
+    #c89f23 92.32%,
+    #ae9449 126.01%,
+    #bf9319 170.93%
+  );
+
+  font-family: Bank-Gothic;
+  font-size: 24px;
+  font-weight: bold;
+
+  margin-bottom: 50px;
+
+  cursor: pointer;
+}
+
+.home-main-content {
+  display: flex;
+  width: 90%;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 100px;
+}
+
+.home-enquiry-form-mobile {
+  display: none;
+}
+
+.home-about-play-video-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+
+  background-color: #000;
+
+  border: none;
+  border-radius: 100px;
+
+  color: #fff;
+  font-family: Bank-Gothic;
+  font-weight: bold;
+  font-size: 18px;
+
+  width: 150px;
+  height: 150px;
+
+  padding: 20px;
+
+  top: -15%;
+  right: 44.5%;
+  z-index: 500;
+
+  cursor: pointer;
+}
+
+.home-about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  font-family: Bank-Gothic;
+  text-align: left;
+
+  padding-top: 100px;
+
+  border-bottom: 1px solid #fff;
+}
+
+.home-about-left-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-subheadings,
+.home-about-left-info > h3 {
+  color: var(--white-50, #fff);
+  font-family: Bank-Gothic;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+  align-self: flex-start;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.home-subheadings-2 {
+  color: var(--white-700, #525252);
+  text-align: justify;
+  font-family: Bank-Gothic;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185.5%; /* 64.925px */
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.home-colored-text {
+  background: var(
+    --bg-2,
+    linear-gradient(
+      106deg,
+      #be9118 7.78%,
+      #efd84e 12.01%,
+      #be9218 23%,
+      #f4de53 39.06%,
+      #d4b030 56.82%,
+      #dfc03c 67.81%,
+      #c0941a 82.18%,
+      #c49a1e 82.2%,
+      #b48f25 98.25%,
+      #c89f23 116%,
+      #ae9449 138.83%,
+      #bf9319 169.27%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-about-left-info > h3 > span {
+  border-bottom: 1px solid #be9118;
+}
+
+.home-about-text-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 50vh;
+
+  padding-right: 50px;
+}
+
+.home-about-text-section > img {
+  width: 350px;
+  height: auto;
+
+  align-self: flex-end;
+}
+
+.home-about-text-section > .home-about-text {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+
+  text-align: justify;
+
+  color: #ffffff;
+
+  padding-left: 50px;
+}
+
+.home-about-text-section > .home-about-text button {
+  width: 30%;
+  padding: 10px;
+
+  background-color: transparent;
+  border: 1px solid #ffffff;
+
+  border-radius: 5px;
+
+  margin-top: 50px;
+
+  font-family: Bank-Gothic;
+  color: #fff;
+
+  cursor: pointer;
+}
+
+.home-about-right-image {
+  align-self: flex-start;
+  /* box-shadow: 0 0 26px 12px #957d24; */
+  filter: drop-shadow(0px 0px 8px #957d24);
+}
+
+.home-about-right-image > img {
+  width: 300px;
+  height: 500px;
+
+  border-radius: 5px;
+}
+
+.home-propeties-section {
+  padding-top: 100px;
+  width: 100%;
+}
+
+.home-propeties-section > .home-properties-mobile {
+  display: none;
+}
+
+.home-what-we-offer-section {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  margin-top: 100px;
+}
+
+.home-what-we-offer-section h3 {
+  display: flex;
+  align-self: center;
+}
+
+.home-what-we-offer-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.home-what-we-offer-carousel .what-we-offer-carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  width: 100%;
+}
+
+.home-what-we-offer-carousel .what-we-offer-carousel-container > img {
+  width: 100%;
+  height: auto;
+}
+
+.what-we-offer-cards {
+  position: absolute;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+
+  padding: 5px;
+
+  width: 300px;
+
+  border: none;
+  border-radius: 50px;
+}
+
+.what-we-offer-cards > img {
+  border-radius: 50%;
+}
+
+.what-we-offer-cards > span {
+  padding-left: 20px;
+}
+
+.home-what-we-offer-carousel .bedroom {
+  top: 50%;
+  left: 10%;
+}
+
+.home-what-we-offer-carousel .bathrooms {
+  top: 10%;
+  left: 60%;
+}
+
+.home-what-we-offer-carousel .view {
+  top: 70%;
+  left: 50%;
+}
+
+.home-what-we-offer-marquee > marquee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* color: var(--white-700, #525252); */
+  text-align: justify;
+  font-family: Bank-Gothic;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185.5%; /* 64.925px */
+  margin: 0px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.home-blink-text {
+  animation: blinker 2s linear infinite;
+  color: #ffe227;
+  transition: all ease-in-out;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.home-testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+
+  background-image: url("../../Assets//Home/HomeTestimonialBgImg.png");
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+
+  padding-bottom: 100px;
+}
+
+.home-testimonials > h2 {
+  align-self: center;
+  background-color: #202020;
+  padding: 20px;
+}
+
+.home-testimonials-left {
+  width: 60%;
+}
+
+.home-testimonials-text-section {
+  color: var(--white-200, #dcdcdc);
+  text-align: justify;
+  font-family: Bank-Gothic;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 180.556% */
+
+  width: 90%;
+}
+
+.home-testimonials-text-section span {
+  font-size: 24px;
+}
+
+.home-testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.home-testimonials-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+
+  border-radius: 6px;
+  border: 2px solid rgba(255, 255, 255, 0);
+  background: radial-gradient(
+    231% 135.8% at 0.9% 2.98%,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  backdrop-filter: blur(25px);
+
+  padding: 30px 10px 30px 10px;
+}
+
+.home-testimonials-top > h2 {
+  align-self: center;
+}
+
+.home-testimonials-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.home-testimonials-content > img {
+  width: 500px;
+}
+
+.home-testimonials-client-details {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.home-testimonials-client-details > img {
+  border-radius: 50%;
+}
+
+.home-testimonials-client-name {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-testimonials-client-name > h4 {
+  margin: 0px;
+  font-size: 22px;
+}
+
+.home-testimonials-metrics {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-testimonials-metrics h3 {
+  margin: 0;
+  font-size: 44px;
+  color: #fff;
+}
+
+.home-testimonials-metrics span {
+  font-size: 14px;
+}
+
+.home-testimonial-metric {
+  margin-top: 50px;
+  padding-right: 20px;
+  padding-left: 10px;
+  text-align: left;
+  border-right: 1px solid #888;
+}
+
+.home-testimonials-text-section button {
+  display: inline-flex;
+  padding: 17px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+
+  color: var(--black-200, #d1d1d1);
+  text-align: center;
+  font-family: Bank-Gothic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  border: none;
+  border-radius: 8px;
+  background-color: var(--black-950, #000);
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.05) inset;
+
+  margin-top: 50px;
+
+  cursor: pointer;
+}
+
+.home-our-agents-section {
+  background-image: url("../../Assets/Home/HomeOurAgentsBgImg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #2a2a2a;
+
+  border-radius: 5px;
+
+  margin-top: 50px;
+  padding: 20px;
+  padding-bottom: 100px;
+}
+
+.home-our-agents-section > h4 {
+  color: #fff;
+  font-family: Bank-Gothic;
+  font-size: 20px;
+
+  display: flex;
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+.home-our-agents-main-section {
+  width: 100%;
+}
+
+.home-our-agents-main-section > h2 {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.home-agent-cards-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  gap: 50px;
+}
+
+.home-agent-cards {
+  width: 350px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+
+  border-radius: 5px;
+  border: 1px solid var(--white-300, #bdbdbd);
+  background: radial-gradient(
+    231% 135.8% at 0.9% 2.98%,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  backdrop-filter: blur(26px);
+
+  font-family: Bank-Gothic;
+  text-align: left;
+  color: var(--white-200, #dcdcdc);
+}
+
+.home-agent-cards > h3 {
+  font-size: 28px;
+  margin: 0;
+  margin-top: 10px;
+
+  align-self: flex-start;
+}
+
+.home-agent-cards > h4 {
+  font-size: 22px;
+  margin: 0;
+  margin-top: 10px;
+
+  align-self: flex-start;
+}
+
+.home-agent-cards > span {
+  font-size: 16px;
+  margin-top: 20px;
+
+  align-self: flex-start;
+}
+
+.home-agent-cards-icons {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 30px;
+}
+
+.home-agent-cards-icons svg {
+  background-color: #fff;
+  padding: 5px;
+
+  border-radius: 50%;
+}
+
+.home-agent-cards-icons > div > svg {
+  margin-right: 10px;
+}
+
+.home-make-a-tour {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 100px;
+}
+
+.home-property-news {
+  margin-top: 100px;
+
+  width: 100%;
+}
+
+.home-property-news > h2 {
+  text-align: center;
+}
+
+.home-property-news-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  gap: 20px;
+
+  background-color: #2a2a2a;
+
+  padding: 30px 20px 30px 20px;
+
+  border-radius: 10px;
+}

@@ -1,0 +1,294 @@
+@media only screen and (max-width: 769px) {
+  .contact-us-main-bg-layer {
+    padding: 0 !important;
+  }
+
+  .contact-us-contact-section {
+    flex-direction: column !important;
+  }
+
+  .contact-us-form-section {
+    width: 100% !important;
+  }
+
+  .contact-us-contact-form-subgroup {
+    flex-direction: column !important;
+  }
+
+  .contact-us-contact-form-subgroup > div {
+    width: 100% !important;
+  }
+
+  .contact-us-contact-form-radio-group {
+    flex-wrap: wrap !important;
+  }
+
+  .contact-us-contact-form-textarea-container {
+    margin-top: 30px !important;
+  }
+
+  .contact-us-other-details-right {
+    width: 90% !important;
+
+    margin-top: 20px !important;
+  }
+}
+
+.contact-us-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  width: 100%;
+
+  background-color: #202020;
+}
+
+.contact-us-main-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  flex-direction: column;
+
+  width: 90%;
+
+  margin-top: 150px;
+
+  font-family: Bank-Gothic;
+}
+
+.contact-us-main-bg-layer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  flex-direction: column;
+
+  width: 90%;
+
+  padding: 100px;
+
+  font-family: Bank-Gothic;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-us-contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: max-content;
+
+  background-color: #fff;
+
+  padding: 20px;
+
+  border-radius: 5px;
+}
+
+.contact-us-form-section {
+  display: flex;
+  align-items: flex-start;
+
+  flex-direction: column;
+
+  padding-left: 50px;
+
+  width: 70%;
+
+  height: 100%;
+
+  min-height: 500px;
+  justify-content: flex-start;
+}
+
+.contact-us-form-section > h1 {
+  margin-block-start: 0px;
+}
+
+.contact-us-contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  flex-direction: column;
+
+  width: 90%;
+
+  padding-top: 30px;
+}
+
+.contact-us-contact-form > div {
+  position: relative;
+}
+
+.contact-us-contact-form > div > p {
+  left: 100px;
+}
+
+.contact-us-contact-form input {
+  width: 100%;
+
+  border: none;
+
+  border-bottom: 1px solid #8d8d8d;
+
+  margin-bottom: 30px;
+}
+
+.contact-us-contact-form-subgroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+.contact-us-contact-form-subgroup > div {
+  width: 40%;
+
+  position: relative;
+}
+
+.contact-us-contact-form-radio-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  position: relative;
+}
+
+.contact-us-contact-form-radio-group > p {
+  position: absolute;
+}
+
+.contact-us-contact-form-radio-group > div {
+  font-size: 14px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contact-us-contact-form-radio-group > div > input {
+  width: 20px;
+}
+
+.contact-us-contact-form textarea {
+  border-bottom: 1px solid #8d8d8d;
+  color: #000;
+}
+
+.contact-us-contact-form-textarea-container {
+  width: 100%;
+
+  position: relative;
+}
+
+.contact-us-contact-form > button {
+  margin-top: 50px;
+
+  width: 100px;
+  height: 40px;
+
+  background-color: #000;
+
+  border: none;
+  border-radius: 5px;
+
+  color: #fff;
+  font-family: Bank-Gothic;
+
+  cursor: pointer;
+}
+
+.contact-us-contact-form p {
+  position: absolute;
+
+  color: rgb(255, 115, 45);
+
+  top: -15px;
+  left: 50px;
+}
+
+.contact-us-contact-form-phone-div > p {
+  left: 200px;
+}
+
+.contact-us-form-response {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  padding: 0 !important;
+
+  margin-top: 20px;
+
+  align-self: flex-start;
+}
+
+.contact-us-form-response .checkmark__circle {
+  background-color: #000;
+}
+
+.contact-us-other-details-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  flex-direction: column;
+
+  gap: 20px;
+
+  width: 30%;
+  height: 100%;
+
+  background-color: #202020;
+
+  color: #fff;
+
+  border-radius: 5px;
+
+  border: 1px solid #fff;
+
+  padding: 50px;
+}
+
+.contact-us-other-details-right > img {
+  width: 300px;
+
+  border-radius: 5px;
+}
+
+.contact-us-other-details-right > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.contact-us-contact-section-social-media-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.contact-us-contact-section-social-media-section > svg {
+  width: 25px;
+  height: 25px;
+
+  cursor: pointer;
+}

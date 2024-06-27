@@ -1,0 +1,69 @@
+.properties-showcase-section {
+  background-image: url("../../Assets/Properties\ Showcase/Propeties-Showcase-Background.png");
+  background-size: contain;
+  background-repeat: repeat-y;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.propeties-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 50px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  width: 100%;
+
+  border-radius: 6px;
+
+  background-color: rgba(43, 43, 43, 0.7);
+}
+
+.properties-showcase-heading > h3 {
+  color: var(--white-50, #fff);
+  font-family: Bank-Gothic;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+  align-self: flex-start;
+  margin: 0px;
+  margin-bottom: 20px;
+
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.properties-showcase-heading > h3 > span {
+  background: var(
+    --bg-2,
+    linear-gradient(
+      106deg,
+      #be9118 7.78%,
+      #efd84e 12.01%,
+      #be9218 23%,
+      #f4de53 39.06%,
+      #d4b030 56.82%,
+      #dfc03c 67.81%,
+      #c0941a 82.18%,
+      #c49a1e 82.2%,
+      #b48f25 98.25%,
+      #c89f23 116%,
+      #ae9449 138.83%,
+      #bf9319 169.27%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
